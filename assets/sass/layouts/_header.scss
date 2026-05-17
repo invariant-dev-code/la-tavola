@@ -1,0 +1,4 @@
+@use "../utils/variables";
+#header {
+  background-color: variables.$second-color;
+}

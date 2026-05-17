@@ -1,4 +1,6 @@
 @use "./base/typography";
 @use "./utils/breakpoints";
+@use "./layouts/header";
+@use "./layouts/navigation";
 @use "./pages/home";
 @use "./layouts/footer";
