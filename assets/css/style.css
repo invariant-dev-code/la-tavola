@@ -1,0 +1,132 @@
+body {
+  font-family: "Playfair Display", serif;
+}
+
+@media (max-width: 575.98px) {
+  .home-page #main #welcome h1,
+  .home-page #main #welcome h2,
+  .home-page #main #menu h1,
+  .home-page #main #menu h2,
+  .home-page #main #reviews h1,
+  .home-page #main #reviews h2,
+  .home-page #main #reservation h1,
+  .home-page #main #reservation h2 {
+    font-size: 50px !important;
+  }
+}
+@media (max-width: 991.98px) {
+  .home-page #main #menu .card,
+  .home-page #main #menu .review,
+  .home-page #main #reviews .card,
+  .home-page #main #reviews .review {
+    margin-bottom: 20px !important;
+  }
+  .home-page #main #reservation form {
+    margin-top: 30px;
+  }
+}
+.home-page #main #welcome {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../images/photo-1414235077428-338989a2e8c0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.home-page #main #welcome .reserve-content {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.home-page #main #welcome .reserve-content h1 {
+  font-size: 60px;
+}
+.home-page #main #welcome .reserve-content h6 {
+  color: #f77170;
+}
+.home-page #main #welcome .reserve-content a {
+  margin-bottom: 20px;
+}
+.home-page #main #story {
+  background-color: #030712;
+  padding: 120px 0;
+}
+.home-page #main #story .story-content {
+  padding-top: 70px;
+}
+.home-page #main #story .story-content h5,
+.home-page #main #story .story-content h3 {
+  color: #f77170;
+}
+.home-page #main #menu {
+  background-color: #111827;
+  padding: 90px 0;
+}
+.home-page #main #menu h5 {
+  color: #f77170;
+}
+.home-page #main #menu h2 {
+  font-size: 60px;
+}
+.home-page #main #menu .card {
+  background-color: #1f2937;
+}
+.home-page #main #menu .card .card-img img {
+  transition: transform 0.5s;
+}
+.home-page #main #menu .card .card-img img:hover {
+  transform: scale(1.2);
+}
+.home-page #main #menu .card span {
+  color: #f77170;
+}
+.home-page #main #menu .card .pick {
+  font-size: 11px;
+  top: 4%;
+  right: 4%;
+}
+.home-page #main #menu a {
+  color: #f77170;
+}
+.home-page #main #reviews {
+  background-color: #030712;
+  padding: 90px 0;
+}
+.home-page #main #reviews .review-content h5 {
+  color: #f77170;
+}
+.home-page #main #reviews .review-content h2 {
+  font-size: 60px;
+}
+.home-page #main #reviews .review {
+  background-color: #111827;
+}
+.home-page #main #reviews .review .fa-quote-left {
+  color: #481b22;
+}
+.home-page #main #reviews .review span {
+  font-size: 17px;
+  color: #f77170;
+  background-color: #481b22;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.home-page #main #reservation {
+  background: linear-gradient(rgba(2, 40, 60, 0.8), #1f2937), url("../images/photo-1517248135467-4c7edcad34c4.jpg");
+  padding: 80px 0;
+}
+.home-page #main #reservation .reservation-content {
+  padding-top: 15%;
+}
+.home-page #main #reservation .reservation-content h6 {
+  color: #f77170;
+}
+.home-page #main #reservation .reservation-content h2 {
+  font-size: 60px;
+}
+.home-page #main #reservation .reservation-content i {
+  color: #f77170;
+}
+.home-page #main #reservation form {
+  background-color: #1f2937;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,121 @@
+@use "../utils/variables";
+// Main
+.home-page #main {
+  // Reserve
+  #welcome {
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+      url("../images/photo-1414235077428-338989a2e8c0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    .reserve-content {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      h1 {
+        font-size: 60px;
+      }
+      h6 {
+        color: variables.$primary-color;
+      }
+      a {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  //   Story
+  #story {
+    background-color: variables.$second-color;
+    padding: 120px 0;
+
+    .story-content {
+      padding-top: 70px;
+      h5,
+      h3 {
+        color: variables.$primary-color;
+      }
+    }
+  }
+  //   Selections
+  #menu {
+    background-color: variables.$third-color;
+    padding: 90px 0;
+    h5 {
+      color: variables.$primary-color;
+    }
+    h2 {
+      font-size: 60px;
+    }
+    .card {
+      background-color: variables.$fourth-color;
+      .card-img {
+        img {
+          transition: transform 0.5s;
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+      }
+      span {
+        color: variables.$primary-color;
+      }
+      .pick {
+        font-size: 11px;
+        top: 4%;
+        right: 4%;
+      }
+    }
+    a {
+      color: variables.$primary-color;
+    }
+  }
+  //   Reviews
+  #reviews {
+    background-color: variables.$second-color;
+    padding: 90px 0;
+    .review-content {
+      h5 {
+        color: variables.$primary-color;
+      }
+      h2 {
+        font-size: 60px;
+      }
+    }
+    .review {
+      background-color: variables.$third-color;
+      .fa-quote-left {
+        color: #481b22;
+      }
+      span {
+        font-size: 17px;
+        color: variables.$primary-color;
+        background-color: #481b22;
+        border-radius: 50%;
+        margin-right: 10px;
+      }
+    }
+  }
+  //   Reservation
+  #reservation {
+    background:
+      linear-gradient(rgba(2, 40, 60, 0.8), variables.$fourth-color),
+      url("../images/photo-1517248135467-4c7edcad34c4.jpg");
+    padding: 80px 0;
+    .reservation-content {
+      padding-top: 15%;
+      h6 {
+        color: variables.$primary-color;
+      }
+      h2 {
+        font-size: 60px;
+      }
+      i {
+        color: variables.$primary-color;
+      }
+    }
+    form {
+      background-color: variables.$fourth-color;
+    }
+  }
+}
