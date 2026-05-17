@@ -1,5 +1,6 @@
 // X-Small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+  // Home page
   .home-page #main {
     // Welcome, Menu, Reservation & Gallery
     #welcome,
@@ -10,6 +11,27 @@
       h1,
       h2 {
         font-size: 50px !important;
+      }
+    }
+  }
+  // Menu page
+  .menu-page {
+    #main {
+      // Menu
+      #menu {
+        h1,
+        h2 {
+          font-size: 50px !important;
+        }
+      }
+      // Dictary
+      #dictary {
+        ul {
+          flex-direction: column;
+          li {
+            margin-bottom: 8px !important;
+          }
+        }
       }
     }
   }

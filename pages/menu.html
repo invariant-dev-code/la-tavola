@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Tavola</title>
+    <link rel="icon" href="../assets/images/favicon.svg" />
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="../assets/vendors/fontawesome/css/all.min.css"
+    />
+    <!-- Bootsrap css -->
+    <link
+      rel="stylesheet"
+      href="../assets/vendors/bootstrap/css/bootstrap.min.css"
+    />
+    <!-- Main css -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <!-- Bootsrap js -->
+    <script
+      src="../assets/vendors/bootstrap/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+    <!-- Main js -->
+    <script src="../assets/js/main.js" defer></script>
+  </head>
+  <body class="menu-page">
+    <!-- Header -->
+    <header id="header">
+      <div class="container-fluid">
+        <div class="nav justify-content-between py-4">
+          <div class="col-lg-2">
+            <a href="#"
+              ><img src="../assets/images/logo-light.svg" alt="logo"
+            /></a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12">
+            <ul class="list-unstyled d-flex">
+              <li>
+                <a class="nav-link link-light" href="../index.html">Home</a>
+              </li>
+              <li>
+                <a class="nav-link link-light" href="menu.html">Menu</a>
+              </li>
+              <li>
+                <a class="nav-link link-light" href="about.html">About</a>
+              </li>
+              <li>
+                <a class="nav-link link-light" href="gallery.html">Gallery</a>
+              </li>
+              <li>
+                <a class="nav-link link-light" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <a class="btn btn-danger" href="reserve.html">Reserve a Table</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Main -->
+    <main id="main">
+      <!-- Menu -->
+      <section id="menu">
+        <div class="container">
+          <div class="menu-content text-center">
+            <h6 class="text-uppercase">Our Menu</h6>
+            <h1 class="text-white fw-bold">Authentic Italian Cuisine</h1>
+            <p class="text-white fw-bold">
+              Every dish is crafted with the finest ingredients, traditional
+              techniques, and a passion for authentic Italian flavors.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Sticky -->
+      <section id="sticky" class="py-3">
+        <div class="container-fluid">
+          <ul class="list-unstyled d-flex gap-3">
+            <li>
+              <a class="nav-link link-light" href="#antipasti">Antipasti</a>
+            </li>
+            <li><a class="nav-link link-light" href="#primi">Primi</a></li>
+            <li><a class="nav-link link-light" href="#secondi">Secondi</a></li>
+            <li><a class="nav-link link-light" href="#dolci">Dolci</a></li>
+          </ul>
+        </div>
+        <hr class="text-white-50" />
+      </section>
+      <!-- Menus -->
+      <section id="menus">
+        <!-- Antipasti -->
+        <section id="antipasti">
+          <div class="container-fluid">
+            <h3 class="text-white">Antipasti</h3>
+            <p class="text-white-50">Traditional Italian starters</p>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="menu p-4 rounded-4 mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h4 class="text-white">Bruschetta al Pomodoro</h4>
+                    <h4 class="price">$12</h4>
+                  </div>
+                  <p class="text-white-50">
+                    Grilled bread topped with fresh tomatoes, garlic, basil, and
+                    extra virgin olive oil
+                  </p>
+                  <span class="bg-success text-white rounded-3 px-3 py-1"
+                    ><i class="fa-solid fa-circle-check"></i>vegetarian</span
+                  >
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="menu p-4 rounded-4 mb-4 position-relative">
+                  <div class="d-flex justify-content-between">
+                    <h4 class="text-white">Burrata</h4>
+                    <h4 class="price">$18</h4>
+                  </div>
+                  <p class="text-white-50">
+                    Creamy burrata with prosciutto di Parma, arugula, and aged
+                    balsamic
+                  </p>
+                  <span
+                    class="pick position-absolute text-white bg-danger px-3 py-1 rounded-4"
+                    >Chef's Pick</span
+                  >
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="menu p-4 rounded-4 mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h4 class="text-white">Calamari Fritti</h4>
+                    <h4 class="price">$16</h4>
+                  </div>
+                  <p class="text-white-50">
+                    Crispy fried calamari served with marinara sauce and lemon
+                    aioli
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="menu p-4 rounded-4">
+                  <div class="d-flex justify-content-between">
+                    <h4 class="text-white">Carpaccio di Manzo</h4>
+                    <h4 class="price">$19</h4>
+                  </div>
+                  <p class="text-white-50">
+                    Thinly sliced raw beef with arugula, capers, and shaved
+                    Parmigiano
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr class="text-white-50 m-0" />
+          </div>
+        </section>
+        <!-- Primi -->
+        <section id="primi" class="my-5">
+          <div class="container-fluid">
+            <h3 class="text-white">Primi</h3>
+            <p class="text-white-50">Fresh pasta and risotto</p>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="menu p-4 rounded-4 mb-4 position-relative">
+                  <div class="d-flex justify-content-between">
+                    <h4 class="text-white">Spaghetti alla Carbonara</h4>
+                    <h4 class="price">$24</h4>
+                  </div>
+                  <p class="text-white-50">
+                    Classic Roman pasta with guanciale, egg yolk, Pecorino
+                    Romano, and black pepper
+                  </p>
+                  <span
+                    class="pick position-absolute text-white bg-danger px-3 py-1 rounded-4"
+                    >Chef's Pick</span
+                  >
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="menu p-4 rounded-4 mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h4 class="text-white">Rigatoni alla Norma</h4>
+                    <h4 class="price">$22</h4>
+                  </div>
+                  <p class="text-white-50">
+                    Rigatoni with roasted eggplant, tomato sauce, ricotta
+                    salata, and fresh basil
+                  </p>
+                  <span class="bg-success text-white rounded-3 px-3 py-1"
+                    ><i class="fa-solid fa-circle-check"></i>vegetarian</span
+                  >
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="menu p-4 rounded-4 mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h4 class="text-white">Risotto ai Funghi Porcini</h4>
+                    <h4 class="price">$26</h4>
+                  </div>
+                  <p class="text-white-50">
+                    Arborio rice slowly cooked with porcini mushrooms, white
+                    wine, and Parmigiano
+                  </p>
+                  <span class="bg-success text-white rounded-3 px-3 py-1"
+                    ><i class="fa-solid fa-circle-check"></i>vegetarian</span
+                  >
+                  <span class="bg-warning text-white rounded-3 px-3 py-1"
+                    ><i class="fa-solid fa-circle-check"></i>gluten-free
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="menu p-4 rounded-4 mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h4 class="text-white">Tagliatelle al Ragu</h4>
+                    <h4 class="price">$25</h4>
+                  </div>
+                  <p class="text-white-50">
+                    Fresh egg pasta with slow-cooked Bolognese meat sauce
+                  </p>
+                </div>
+              </div>
+            </div>
+            <hr class="text-white-50 m-0" />
+          </div>
+        </section>
+        <!-- Secondi -->
+        <section id="secondi" class="my-5">
+          <div class="container-fluid">
+            <h3 class="text-white">Secondi</h3>
+            <p class="text-white-50">Main courses</p>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="menu p-4 rounded-4 mb-4 position-relative">
+                  <div class="d-flex justify-content-between">
+                    <h4 class="text-white">Branzino al Forno</h4>
+                    <h4 class="price">$38</h4>
+                  </div>
+                  <p class="text-white-50">
+                    Whole roasted Mediterranean sea bass with herbs, lemon, and
+                    olive oil
+                  </p>
+                  <span
+                    class="pick position-absolute text-white bg-danger px-3 py-1 rounded-4"
+                    >Chef's Pick</span
+                  >
+                  <span class="bg-warning text-white rounded-3 px-3 py-1"
+                    ><i class="fa-solid fa-circle-check"></i>gluten-free
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="menu p-4 rounded-4 mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h4 class="text-white">Osso Buco alla Milanese</h4>
+                    <h4 class="price">$42</h4>
+                  </div>
+                  <p class="text-white-50">
+                    Braised veal shank with saffron risotto and gremolata
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="menu p-4 rounded-4 mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h4 class="text-white">Pollo alla Parmigiana</h4>
+                    <h4 class="price">$28</h4>
+                  </div>
+                  <p class="text-white-50">
+                    Breaded chicken breast with tomato sauce, mozzarella, and
+                    fresh basil
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="menu p-4 rounded-4 mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h4 class="text-white">Bistecca alla Fiorentina</h4>
+                    <h4 class="price">$85</h4>
+                  </div>
+                  <p class="text-white-50">
+                    32oz T-bone steak grilled over oak wood, served with roasted
+                    potatoes
+                  </p>
+                  <span class="bg-warning text-white rounded-3 px-3 py-1"
+                    ><i class="fa-solid fa-circle-check"></i>gluten-free
+                  </span>
+                </div>
+              </div>
+            </div>
+            <hr class="text-white-50 m-0" />
+          </div>
+        </section>
+        <!-- Dolci -->
+        <section id="dolci">
+          <div class="container-fluid">
+            <h3 class="text-white">Dolci</h3>
+            <p class="text-white-50">House-made desserts</p>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="menu p-4 rounded-4 mb-4 position-relative">
+                  <div class="d-flex justify-content-between">
+                    <h4 class="text-white">Tiramisu</h4>
+                    <h4 class="price">$12</h4>
+                  </div>
+                  <p class="text-white-50">
+                    Classic layered dessert with espresso-soaked ladyfingers and
+                    mascarpone cream
+                  </p>
+                  <span
+                    class="pick position-absolute text-white bg-danger px-3 py-1 rounded-4"
+                    >Chef's Pick</span
+                  >
+                  <span class="bg-warning text-white rounded-3 px-3 py-1"
+                    ><i class="fa-solid fa-circle-check"></i>gluten-free
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="menu p-4 rounded-4 mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h4 class="text-white">Panna Cotta</h4>
+                    <h4 class="price">$10</h4>
+                  </div>
+                  <p class="text-white-50">
+                    Vanilla bean panna cotta with seasonal berry compote
+                  </p>
+                  <span class="bg-warning text-white rounded-3 px-3 py-1"
+                    ><i class="fa-solid fa-circle-check"></i>gluten-free
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="menu p-4 rounded-4 mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h4 class="text-white">Cannoli Siciliani</h4>
+                    <h4 class="price">$11</h4>
+                  </div>
+                  <p class="text-white-50">
+                    Crispy pastry shells filled with sweet ricotta, chocolate
+                    chips, and pistachios
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="menu p-4 rounded-4 mb-4">
+                  <div class="d-flex justify-content-between">
+                    <h4 class="text-white">Affogato</h4>
+                    <h4 class="price">$9</h4>
+                  </div>
+                  <p class="text-white-50">
+                    Vanilla gelato drowned in hot espresso with amaretto
+                  </p>
+                  <span class="bg-warning text-white rounded-3 px-3 py-1"
+                    ><i class="fa-solid fa-circle-check"></i>gluten-free
+                  </span>
+                </div>
+              </div>
+            </div>
+            <hr class="text-white-50 m-0" />
+          </div>
+        </section>
+      </section>
+      <!-- Dictary -->
+      <section id="dictary">
+        <div class="container-fluid">
+          <div class="dictary-content p-5 rounded-4">
+            <h3 class="text-white">Dietary Information</h3>
+            <p class="text-white-50">
+              Please inform your server of any allergies or dietary
+              restrictions. We are happy to accommodate special requests
+              whenever possible.
+            </p>
+            <ul class="list-unstyled d-flex m-0">
+              <li class="text-white-50 d-flex align-items-center">
+                <i
+                  class="fa-solid fa-check text-success bg-success-subtle px-3 py-2 d-flex justify-content-center rounded-circle mx-2"
+                ></i
+                >Vegetarian
+              </li>
+              <li class="text-white-50 d-flex align-items-center">
+                <i
+                  class="fa-solid fa-check text-warning bg-warning-subtle px-3 py-2 d-flex justify-content-center rounded-circle mx-2"
+                ></i
+                >Gluten-Free
+              </li>
+              <li class="text-white-50 d-flex align-items-center">
+                <i
+                  class="fa-solid fa-check text-dark-emphasis bg-dark px-3 py-2 d-flex justify-content-center rounded-circle mx-2"
+                ></i
+                >Vegan options available upon request
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <img src="../assets/images/logo-light.svg" alt="logo" />
+            <h4 class="text-white-50">Authentic Italian Cuisine</h4>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a
+                  class="text-decoration-none text-white-50"
+                  href="tel:0551234567"
+                  ><i class="fa-solid fa-phone"></i>(055) 123-4567</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  class="text-decoration-none text-white-50"
+                  href="mailto:reservations@latavola.com"
+                  ><i class="fa-solid fa-envelope"></i
+                  >reservations@latavola.com</a
+                >
+              </li>
+              <li class="text-white-5 d-flex">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="text-white-50">
+                  123 Main Street <br />
+                  San Francisco, CA 94102
+                </div>
+              </li>
+            </ul>
+            <div class="social-links">
+              <ul class="list-unstyled d-flex">
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-solid fa-fill"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2">
+            <h5 class="text-white">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a class="text-white-50 text-decoration-none" href="#">Home</a>
+              </li>
+              <li class="mb-2">
+                <a
+                  class="text-white-50 text-decoration-none"
+                  href="pages/menu.html"
+                  >Menu</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  class="text-white-50 text-decoration-none"
+                  href="pages/about.html"
+                  >About</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  class="text-white-50 text-decoration-none"
+                  href="pages/gallery.html"
+                  >Gallery</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-white-50 text-decoration-none"
+                  href="pages/contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-2">
+            <h5 class="text-white">Hours</h5>
+            <ul class="list-unstyled">
+              <li class="text-white-50">Monday</li>
+              <li class="text-white-50">Tuesday</li>
+              <li class="text-white-50">Wednesday</li>
+              <li class="text-white-50">Thursday</li>
+              <li class="text-white-50">Friday</li>
+              <li class="text-white-50">Saturday</li>
+              <li class="text-white-50">Sunday</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="row">
+              <div class="col-lg-6">
+                <h5 class="close">Closed</h5>
+                <ul class="list-unstyled">
+                  <li class="text-white">5:00 PM - 10:00 PM</li>
+                  <li class="text-white">5:00 PM - 10:00 PM</li>
+                  <li class="text-white">5:00 PM - 10:00 PM</li>
+                  <li class="text-white">5:00 PM - 11:00 PM</li>
+                  <li class="text-white">12:00 PM - 11:00 PM</li>
+                  <li class="text-white">12:00 PM - 9:00 PM</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <h5 class="text-white">Newsletter</h5>
+                <p class="text-white-50">
+                  Subscribe for special offers and seasonal menu updates.
+                </p>
+                <div class="d-flex">
+                  <input
+                    class="form-control"
+                    type="email"
+                    placeholder="Your email"
+                  />
+                  <button class="btn btn-danger text-white">Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="text-white-50" />
+        <div class="footer-bottom">
+          <div class="row justify-content-between">
+            <div class="col-lg-3 col-md-5">
+              <p class="text-white-50">
+                © 2026 La Tavola. All rights reserved.
+              </p>
+            </div>
+            <div class="col-lg-2 col-md-4">
+              <ul class="list-unstyled d-flex">
+                <li>
+                  <a class="text-white-50 text-decoration-none" href="#"
+                    >Privacy Policy</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white-50 text-decoration-none" href="#"
+                    >Terms of Service</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

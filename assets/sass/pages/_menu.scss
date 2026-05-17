@@ -1,0 +1,56 @@
+@use "../utils/variables";
+.menu-page {
+  // Menu
+  #menu {
+    background-color: variables.$third-color;
+    padding: 80px 0;
+    h1 {
+      font-size: 60px;
+    }
+    h6 {
+      color: variables.$primary-color;
+    }
+  }
+  //   Main
+  #main {
+    // Sticky
+    #sticky {
+      background-color: variables.$second-color;
+    }
+    // Menus
+    #menus {
+      background-color: variables.$second-color;
+      //   Antipasti
+      #antipasti {
+        padding: 20px 0;
+      }
+      .menu {
+        background-color: variables.$third-color;
+        height: 180px;
+        border: 2px solid;
+        transition: border 0.5s;
+        .price {
+          color: variables.$primary-color;
+        }
+        i {
+          margin-right: 3px;
+        }
+        &:hover {
+          border: 2px solid variables.$primary-color;
+        }
+        .pick {
+          right: 0;
+          top: -15px;
+        }
+      }
+    }
+    // Dictary
+    #dictary {
+      background-color: variables.$third-color;
+      padding-top: 100px;
+      .dictary-content {
+        background-color: variables.$second-color;
+      }
+    }
+  }
+}

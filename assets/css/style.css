@@ -15,6 +15,16 @@ body {
   .home-page #main #gallery h2 {
     font-size: 50px !important;
   }
+  .menu-page #main #menu h1,
+  .menu-page #main #menu h2 {
+    font-size: 50px !important;
+  }
+  .menu-page #main #dictary ul {
+    flex-direction: column;
+  }
+  .menu-page #main #dictary ul li {
+    margin-bottom: 8px !important;
+  }
 }
 @media (max-width: 991.98px) {
   .home-page #main #menu .card,
@@ -169,6 +179,52 @@ body {
 }
 .home-page #main #gallery .gallery:hover .content {
   transform: translateY(-20px);
+}
+
+.menu-page #menu {
+  background-color: #111827;
+  padding: 80px 0;
+}
+.menu-page #menu h1 {
+  font-size: 60px;
+}
+.menu-page #menu h6 {
+  color: #f77170;
+}
+.menu-page #main #sticky {
+  background-color: #030712;
+}
+.menu-page #main #menus {
+  background-color: #030712;
+}
+.menu-page #main #menus #antipasti {
+  padding: 20px 0;
+}
+.menu-page #main #menus .menu {
+  background-color: #111827;
+  height: 180px;
+  border: 2px solid;
+  transition: border 0.5s;
+}
+.menu-page #main #menus .menu .price {
+  color: #f77170;
+}
+.menu-page #main #menus .menu i {
+  margin-right: 3px;
+}
+.menu-page #main #menus .menu:hover {
+  border: 2px solid #f77170;
+}
+.menu-page #main #menus .menu .pick {
+  right: 0;
+  top: -15px;
+}
+.menu-page #main #dictary {
+  background-color: #111827;
+  padding-top: 100px;
+}
+.menu-page #main #dictary .dictary-content {
+  background-color: #030712;
 }
 
 #footer {
