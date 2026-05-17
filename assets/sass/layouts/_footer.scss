@@ -1,0 +1,23 @@
+@use "../utils/variables";
+#footer {
+  background-color: variables.$third-color;
+  padding: 80px 0;
+  img {
+    width: 160px;
+  }
+  i,
+  .close {
+    color: variables.$primary-color;
+    margin-right: 10px;
+  }
+  .social-links {
+    i {
+      color: variables.$fifth-color !important;
+    }
+  }
+  a {
+    &:hover {
+      color: #fff !important;
+    }
+  }
+}

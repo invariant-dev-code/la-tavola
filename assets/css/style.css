@@ -10,7 +10,9 @@ body {
   .home-page #main #reviews h1,
   .home-page #main #reviews h2,
   .home-page #main #reservation h1,
-  .home-page #main #reservation h2 {
+  .home-page #main #reservation h2,
+  .home-page #main #gallery h1,
+  .home-page #main #gallery h2 {
     font-size: 50px !important;
   }
 }
@@ -23,6 +25,9 @@ body {
   }
   .home-page #main #reservation form {
     margin-top: 30px;
+  }
+  .home-page #main #gallery .gallery {
+    margin-bottom: 30px;
   }
 }
 .home-page #main #welcome {
@@ -127,6 +132,54 @@ body {
 }
 .home-page #main #reservation form {
   background-color: #1f2937;
+}
+.home-page #main #gallery {
+  background-color: #111827;
+  padding: 80px 0;
+}
+.home-page #main #gallery h6 {
+  color: #f77170;
+}
+.home-page #main #gallery h2 {
+  font-size: 60px;
+}
+.home-page #main #gallery .gallery {
+  height: 350px;
+}
+.home-page #main #gallery .gallery img {
+  transition: transform 0.6s;
+  cursor: pointer;
+}
+.home-page #main #gallery .gallery img:hover {
+  transform: scale(1.2);
+}
+.home-page #main #gallery .gallery .content {
+  bottom: 20px;
+  left: 20px;
+  transform: translateY(70px);
+  transition: transform 0.7s;
+}
+.home-page #main #gallery .gallery:hover .content {
+  transform: translateY(-20px);
+}
+
+#footer {
+  background-color: #111827;
+  padding: 80px 0;
+}
+#footer img {
+  width: 160px;
+}
+#footer i,
+#footer .close {
+  color: #f77170;
+  margin-right: 10px;
+}
+#footer .social-links i {
+  color: #374151 !important;
+}
+#footer a:hover {
+  color: #fff !important;
 }
 
 /*# sourceMappingURL=style.css.map */

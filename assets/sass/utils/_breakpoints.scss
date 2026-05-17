@@ -1,11 +1,12 @@
 // X-Small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
   .home-page #main {
-    // Welcome, Menu & Reservation
+    // Welcome, Menu, Reservation & Gallery
     #welcome,
     #menu,
     #reviews,
-    #reservation {
+    #reservation,
+    #gallery {
       h1,
       h2 {
         font-size: 50px !important;
@@ -34,6 +35,12 @@
     #reservation {
       form {
         margin-top: 30px;
+      }
+    }
+    // Gallery
+    #gallery {
+      .gallery {
+        margin-bottom: 30px;
       }
     }
   }
