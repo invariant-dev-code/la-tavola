@@ -37,6 +37,10 @@ body {
   .about-page #team .card {
     margin-bottom: 20px;
   }
+  .gallery-page #journey h1,
+  .gallery-page #journey h2 {
+    font-size: 50px !important;
+  }
 }
 @media (max-width: 991.98px) {
   .home-page #main #menu .card,
@@ -305,6 +309,53 @@ body {
 .about-page #main #experience {
   background-color: #f77170;
   padding: 80px 0;
+}
+
+.gallery-page #main #journey {
+  background-color: #1f2937;
+  padding: 100px 0;
+}
+.gallery-page #main #journey h1 {
+  font-size: 60px;
+}
+.gallery-page #main #journey h6 {
+  color: #f77170;
+}
+.gallery-page #main #gallery {
+  background-color: #111827;
+  padding: 100px 0;
+}
+.gallery-page #main #gallery h2 {
+  font-size: 60px;
+}
+.gallery-page #main #gallery .gallery {
+  height: 350px;
+}
+.gallery-page #main #gallery .gallery img {
+  transition: transform 0.6s;
+  cursor: pointer;
+}
+.gallery-page #main #gallery .gallery img:hover {
+  transform: scale(1.2);
+}
+.gallery-page #main #gallery .gallery .content {
+  bottom: 20px;
+  left: 20px;
+  transform: translateY(70px);
+  transition: transform 0.7s;
+}
+.gallery-page #main #gallery .gallery:hover .content {
+  transform: translateY(-20px);
+}
+.gallery-page #main #follow {
+  background-color: #030712;
+  padding: 80px 0;
+}
+.gallery-page #main #follow h4 {
+  color: #f77170;
+}
+.gallery-page #main #follow a {
+  background: linear-gradient(to right, #480048, #c04848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #footer {

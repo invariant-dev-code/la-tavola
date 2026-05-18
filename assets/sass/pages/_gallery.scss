@@ -1,0 +1,59 @@
+@use "../utils/variables";
+
+.gallery-page #main {
+  // Journey
+  #journey {
+    background-color: variables.$fourth-color;
+    padding: 100px 0;
+    h1 {
+      font-size: 60px;
+    }
+    h6 {
+      color: variables.$primary-color;
+    }
+  }
+  // Gallery
+  #gallery {
+    background-color: variables.$third-color;
+    padding: 100px 0;
+    h2 {
+      font-size: 60px;
+    }
+    .gallery {
+      height: 350px;
+      img {
+        transition: transform 0.6s;
+        cursor: pointer;
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+      .content {
+        bottom: 20px;
+        left: 20px;
+        transform: translateY(70px);
+        transition: transform 0.7s;
+      }
+      &:hover {
+        .content {
+          transform: translateY(-20px);
+        }
+      }
+    }
+  }
+  // Follow
+  #follow {
+    background-color: variables.$second-color;
+    padding: 80px 0;
+    h4 {
+      color: variables.$primary-color;
+    }
+    a {
+      background: linear-gradient(
+        to right,
+        #480048,
+        #c04848
+      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+  }
+}
