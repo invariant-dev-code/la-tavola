@@ -1,0 +1,72 @@
+@use "../utils/variables";
+.about-page #main {
+  // Story
+  #story {
+    background-image: (
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../images/photo-1466978913421-dad2ebd01d17.jpg")
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+    h1 {
+      font-size: 60px;
+    }
+    h6 {
+      color: variables.$primary-color;
+    }
+  }
+  // Est
+  #est {
+    background-color: variables.$second-color;
+    padding: 100px 0;
+    img,
+    .content {
+      height: 500px;
+    }
+    h2 {
+      font-size: 60px;
+    }
+    h3,
+    h5 {
+      color: variables.$primary-color;
+    }
+  }
+  // Values
+  #values {
+    background-color: variables.$third-color;
+    padding: 120px 0;
+    h6,
+    i {
+      color: variables.$primary-color;
+    }
+    .value {
+      background-color: variables.$fourth-color;
+      height: 300px;
+    }
+  }
+  // Team
+  #team {
+    background-color: variables.$second-color;
+    padding: 100px 0;
+    h6,
+    i {
+      color: variables.$primary-color;
+    }
+    .card {
+      background-color: variables.$third-color;
+      height: 650px;
+      img {
+        transition: transform 0.5s;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  // Experience
+  #experience {
+    background-color: variables.$primary-color;
+    padding: 80px 0;
+  }
+}

@@ -35,6 +35,29 @@
       }
     }
   }
+  // About page
+  .about-page {
+    // Story & Est
+    #story,
+    #est {
+      h1,
+      h2 {
+        font-size: 50px !important;
+      }
+    }
+    // Est
+    #est {
+      .content {
+        margin-top: 100px !important;
+      }
+    }
+    // Team
+    #team {
+      .card {
+        margin-bottom: 20px;
+      }
+    }
+  }
 }
 
 // Small devices (landscape phones, less than 768px)
@@ -63,6 +86,20 @@
     #gallery {
       .gallery {
         margin-bottom: 30px;
+      }
+    }
+  }
+
+  // About page
+  .about-page {
+    // Values
+    #values .value {
+      margin-bottom: 20px;
+    }
+    // Team
+    #team {
+      .card {
+        height: 450px !important;
       }
     }
   }

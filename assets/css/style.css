@@ -25,6 +25,18 @@ body {
   .menu-page #main #dictary ul li {
     margin-bottom: 8px !important;
   }
+  .about-page #story h1,
+  .about-page #story h2,
+  .about-page #est h1,
+  .about-page #est h2 {
+    font-size: 50px !important;
+  }
+  .about-page #est .content {
+    margin-top: 100px !important;
+  }
+  .about-page #team .card {
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 991.98px) {
   .home-page #main #menu .card,
@@ -38,6 +50,12 @@ body {
   }
   .home-page #main #gallery .gallery {
     margin-bottom: 30px;
+  }
+  .about-page #values .value {
+    margin-bottom: 20px;
+  }
+  .about-page #team .card {
+    height: 450px !important;
   }
 }
 #header {
@@ -225,6 +243,68 @@ body {
 }
 .menu-page #main #dictary .dictary-content {
   background-color: #030712;
+}
+
+.about-page #main #story {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/photo-1466978913421-dad2ebd01d17.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0;
+}
+.about-page #main #story h1 {
+  font-size: 60px;
+}
+.about-page #main #story h6 {
+  color: #f77170;
+}
+.about-page #main #est {
+  background-color: #030712;
+  padding: 100px 0;
+}
+.about-page #main #est img,
+.about-page #main #est .content {
+  height: 500px;
+}
+.about-page #main #est h2 {
+  font-size: 60px;
+}
+.about-page #main #est h3,
+.about-page #main #est h5 {
+  color: #f77170;
+}
+.about-page #main #values {
+  background-color: #111827;
+  padding: 120px 0;
+}
+.about-page #main #values h6,
+.about-page #main #values i {
+  color: #f77170;
+}
+.about-page #main #values .value {
+  background-color: #1f2937;
+  height: 300px;
+}
+.about-page #main #team {
+  background-color: #030712;
+  padding: 100px 0;
+}
+.about-page #main #team h6,
+.about-page #main #team i {
+  color: #f77170;
+}
+.about-page #main #team .card {
+  background-color: #111827;
+  height: 650px;
+}
+.about-page #main #team .card img {
+  transition: transform 0.5s;
+}
+.about-page #main #team .card img:hover {
+  transform: scale(1.1);
+}
+.about-page #main #experience {
+  background-color: #f77170;
+  padding: 80px 0;
 }
 
 #footer {
