@@ -1,0 +1,75 @@
+@use "../utils/variables";
+
+.contact-page #main {
+  // Contact
+  #contact {
+    background-color: variables.$fourth-color;
+    padding: 100px 0;
+    h1 {
+      font-size: 60px;
+    }
+    h6 {
+      color: variables.$primary-color;
+    }
+  }
+  // Visit
+  #visit {
+    background-color: variables.$second-color;
+    padding: 100px 0;
+    h2 {
+      font-size: 60px;
+    }
+    h6 {
+      color: variables.$primary-color;
+    }
+    .direction,
+    i,
+    .close {
+      color: variables.$primary-color !important;
+    }
+    i {
+      margin-right: 20px;
+    }
+    .hours {
+      background-color: variables.$third-color;
+    }
+  }
+  //   Reservation
+  #reservation {
+    background:
+      linear-gradient(rgba(2, 40, 60, 0.8), variables.$fourth-color),
+      url("../images/photo-1517248135467-4c7edcad34c4.jpg");
+    padding: 80px 0;
+    .reservation-content {
+      padding-top: 15%;
+      h6 {
+        color: variables.$primary-color;
+      }
+      h2 {
+        font-size: 60px;
+      }
+      i {
+        color: variables.$primary-color;
+      }
+    }
+    form {
+      background-color: variables.$fourth-color;
+    }
+  }
+  // Events
+  #events {
+    padding: 100px 0;
+    background-color: variables.$second-color;
+    h2 {
+      font-size: 40px;
+    }
+    i,
+    h6 {
+      color: variables.$primary-color;
+    }
+    .event-content,
+    img {
+      height: 500px;
+    }
+  }
+}
