@@ -1,0 +1,28 @@
+@use "../utils/variables";
+.reserve-page {
+  // Main
+  #main {
+    //   Reservation
+    #reservation {
+      background:
+        linear-gradient(rgba(2, 40, 60, 0.8), variables.$fourth-color),
+        url("../images/photo-1517248135467-4c7edcad34c4.jpg");
+      padding: 80px 0;
+      .reservation-content {
+        padding-top: 15%;
+        h6 {
+          color: variables.$primary-color;
+        }
+        h2 {
+          font-size: 60px;
+        }
+        i {
+          color: variables.$primary-color;
+        }
+      }
+      form {
+        background-color: variables.$fourth-color;
+      }
+    }
+  }
+}
